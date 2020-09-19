@@ -7,7 +7,7 @@ body, html {
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     font-weight: 400;
     line-height: 1.8em;
-    color: #666;
+    color: rgba(223, 219, 219, 0.9);
   }
   
   @media (max-width: 480px) {
@@ -18,7 +18,7 @@ body, html {
   }
   .imagecontainer {
     position: relative;
-    opacity: 0.75;
+    opacity: 0.7;
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -33,7 +33,7 @@ body, html {
     line-height: 2.2rem;
     text-transform: uppercase;
     text-align: center;
-    background-color: rgba(24, 22, 22, 0.6);
+    background-color: rgba(24, 22, 22, 0.9);
     border-radius: 20px;
   }
   
@@ -47,8 +47,8 @@ body, html {
     font-size: 1.5rem;
   }
   
-  .image1 {
-    background-image: url("./images/11.jpg");
+  .imagegs {
+    background-image: url("./img/gs-1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -56,54 +56,30 @@ body, html {
     min-height: 100%;
   }
   
-  .image2 {
-    background-image: url("./images/12.jpg");
+  .imagefb {
+    background-image: url("./img/fb-1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
   }
   
-  .image3 {
-    background-image: url("./images/13.jpg");
+  .imagebjk {
+    background-image: url("./img/bjk-1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
   }
   
-  .image4 {
-    background-image: url("./images/14.jpg");
+  .imagets {
+    background-image: url("./img/ts-1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
   }
-  
-  .image5 {
-    background-image: url("./images/15.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-  }
-  
-  .image6 {
-    background-image: url("./images/16.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-  }
-  
-  .image7 {
-    background-image: url("./images/17.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-  }
-  
+   
   @media (max-width: 480px) {
     .imagecontainer {
       background-attachment: scroll;
@@ -128,15 +104,15 @@ body, html {
     font-weight: 500;
   }
   
-  .information-light {
+  .infogs {
     background-color: rgba(223, 219, 219, 0.8);
     color: #5f5b5b;
   }
   
-  .information-dark {
+  .infoother {
     background-color: rgba(223, 219, 219, 0.8);
     color: #5f5b5b;
   }
   
-  /*# sourceMappingURL=style.css.map */
+
   
